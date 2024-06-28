@@ -27,16 +27,16 @@ project-root/
 │   └── ...
 │
 ├── src/
-│   ├── components/              # Reusable components
-│   │   ├── HighChart/           # HighChart component
+│   ├── components/              
+│   │   ├── HighChart/           
 │   │   │   ├── HighChart.jsx
 │   │   │   ├── HighChart.css
 │   └── └──...
-│   │   ├── Login/               # Login component
+│   │   ├── Login/              
 │   │   │   ├── Login.jsx
 │   │   │   ├── Login.css
 │   └── ...
-│   ├── App.js                   # Main app component
+│   ├── App.js                   
 │   ├── index.js                 
 │   └── ...
 │
@@ -44,3 +44,12 @@ project-root/
 ├── README.md
 └── ... ```
 
+
+
+## Authentication
+Use this demo API to login
+```https://reqres.in/api/login```
+```{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}```
