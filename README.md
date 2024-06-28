@@ -16,14 +16,6 @@ Follow these steps to set up and run the project
 ```http://localhost:5173 or  http://localhost:3000```
 
 
-## Authentication
-Use this  API to login 
-
-
-```{
-    "email": "eve.holt@reqres.in",
-    "password": "cityslicka"
-}```
 
 ## File structure
 
