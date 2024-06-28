@@ -1,5 +1,11 @@
 ## Setup Instructions
 Follow these steps to set up and run the project
+## Authentication
+Use this demo API to login
+```https://reqres.in/api/login```
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"}
 
 ## Clone the Repository
 ```$ git clone https://github.com/Rajon-Dash/REACT-CHART-APP.git```
@@ -45,10 +51,4 @@ project-root/
 └── ... ``` ```
 
 
-## Authentication
-Use this demo API to login
-```https://reqres.in/api/login```
-```{
-    "email": "eve.holt@reqres.in",
-    "password": "cityslicka"
-}```
+`
