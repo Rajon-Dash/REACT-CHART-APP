@@ -1,3 +1,12 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9ecef;
+}
+
+/* Container Styles */
 .container {
   margin: 0 auto;
   max-width: 900px;
@@ -16,6 +25,7 @@
   text-align: center;
 }
 
+/* Charts Container Styles */
 .charts-container {
   display: flex;
   flex-wrap: wrap;
@@ -24,6 +34,7 @@
   margin-top: 20px;
 }
 
+/* Chart Item Styles */
 .chart-items {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -52,6 +63,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .chart-item input[type="text"],
@@ -77,6 +89,7 @@
   justify-content: space-between;
   gap: 10px;
   margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .customize-options label {
@@ -93,6 +106,7 @@
   cursor: pointer;
 }
 
+/* Chart Styles */
 .chart {
   position: relative;
   display: flex;
@@ -116,7 +130,6 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  display: inline-block;
 }
 
 .chart button:hover {
@@ -126,12 +139,46 @@
 .chart .delete-button {
   right: 60px;
 }
-
-
-
+.logout-button{
+  width: 135px;
+}
 .chart h3 {
   text-align: center;
   margin-bottom: 10px;
   font-size: 18px;
   color: #9d98ce;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 856px) {
+  .container {
+    max-width: 100%;
+    padding-left: 60px;
+  }
+  .charts-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .chart-items {
+    width: 90%;
+  }
+  .chart-item {
+    flex-direction: column;
+  }
+  .customize-options {
+    flex-direction: column;
+  }
+  .chart {
+    width: 90%;
+  }
+  .chart-items button {
+    width: 40%;
+  }
+  
 }
