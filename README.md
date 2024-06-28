@@ -2,7 +2,7 @@
 Follow these steps to set up and run the project
 ## Authentication
 Use this demo API to login
-```https://reqres.in/api/login```
+https://reqres.in/api/login
 {
     "email": "eve.holt@reqres.in",
     "password": "cityslicka"}
