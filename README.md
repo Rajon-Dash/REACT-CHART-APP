@@ -17,14 +17,13 @@ Follow these steps to set up and run the project
 
 
 ## Authentication
-use this  API to login 
+Use this  API to login 
 
-```POST https://reqres.in/api/login
-{
+```POST https://reqres.in/api/login ```
+```{
     "email": "eve.holt@reqres.in",
     "password": "cityslicka"
-}
-```
+}```
 
 ## File structure
 
