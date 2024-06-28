@@ -12,5 +12,5 @@ Follow these steps to set up and run the project
 
 ## Run the Development Server
 ```$ npm run dev```
-##Open your web browser and go to the URL provided by the development server
+## Open your web browser and go to the URL provided by the development server
 ```http://localhost:5173 or  http://localhost:3000```
