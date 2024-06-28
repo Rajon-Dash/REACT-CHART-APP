@@ -28,6 +28,7 @@ const Login = () => {
       });
 
       const data = await response.json(); // Parsing the JSON response
+      console.log("rajon",data.token); // Logging the response data to the console for demonstration purposes
       if (response.ok) {
         // If login is successful, store the token in local storage
         localStorage.setItem('token', data.token);

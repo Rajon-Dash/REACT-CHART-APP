@@ -188,7 +188,7 @@ const HighChart = () => {
         <div className="chart-item">
           <input
             type="text"
-            placeholder="Chart Name"
+            placeholder="Chart Title"
             value={chartName}
             onChange={(e) => setChartName(e.target.value)}
           />
@@ -223,10 +223,11 @@ const HighChart = () => {
             />
             Show Data Labels
           </label>
-        </div>
-        <button type="button" onClick={handleLogout}>
+        
+        <button className="logout-button" type="button" onClick={handleLogout}>
           Logout
         </button>
+        </div>
       </form>
 
       <div className="charts-container">
